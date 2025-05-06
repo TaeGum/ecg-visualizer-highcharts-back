@@ -7,7 +7,7 @@ app = FastAPI()
 # 허용할 origin(출처) 목록
 origins = [
     "http://localhost:3000",  # Next.js 개발 서버
-    "https://ecg-visualizer-highcharts-front.vercel.app/",  # 프로덕션 환경 도메인 (필요시 추가)
+    "https://ecg-visualizer-highcharts-front.vercel.app",  # 프로덕션 환경 도메인 (필요시 추가)
 ]
 
 # CORS 미들웨어 추가
